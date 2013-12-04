@@ -35,7 +35,7 @@
 		code = __getTestCode();
 		$('#testCodeImage').attr("src", "<%=request.getContextPath()%>/app/system/testcode/test.do?code=" + code);
 		
-		//$('#testCode').val(code);
+		$('#testCode').val(code);
 	});
 	
 </script>
